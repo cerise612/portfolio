@@ -1,7 +1,8 @@
 body{
-    font-family: 'Quicknd', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     padding-left: 0;
     margin-left: 0;
+    text-align: center;
 }
 
 /* hyperlink colors */
@@ -16,4 +17,27 @@ a:visited {
 }
 .nav-link{
     padding-top: 5vh;
+}
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 790px;
+}
+#contentDiv{
+    margin-top: 2vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    line-height: 200%;
+}
+#aboutPhoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
