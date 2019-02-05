@@ -17,6 +17,16 @@ a:visited {
 .nav-link{
     padding-top: 5vh;
 }
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+}
 /* page 4 contact */
 
 #coffee {
