@@ -1,0 +1,99 @@
+body{
+    font-family: 'Quicknd', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* hyperlink colors */
+/* unvisited link */
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+a:visited {
+    color: #FD0157;
+}
+.nav-link{
+    padding-top: 5vh;
+}
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+}
+
+/* logos */
+#contentDiv {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 33% 33% 33%;
+    width: auto;
+}
+#careerCenter{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#acDesigns{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#jtb{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#hbs{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#fetchLogo{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#adjDesigns{
+    height:25vh;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 5vh; 
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#backButton{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding-top: 25vh;
+}

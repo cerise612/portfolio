@@ -1,0 +1,252 @@
+body{
+    font-family: 'Quicknd', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* hyperlink colors */
+
+/* unvisited link */
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+a:visited {
+    color: #FD0157;
+}
+
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+}
+/* home page*/
+
+
+.HomePage{
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 15vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
+}
+/* navbar */
+#homeNavBarDiv{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%; 
+}
+.nav-link{
+    padding-top: 5vh;
+}
+/* banner */
+#homeBannerDiv{
+    background-image: url("../images/home/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px 500px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: span 4;
+    width: 100%;
+    position: relative;
+    right: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vh;
+    margin-top: 5vh;
+}
+#homeTitleDiv{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+h1{
+    font-size: x-large;
+}
+#bannerSummary{
+    position: relative;
+    top: 1vh;
+}
+#skillsSide{
+    display: flex;
+    flex-direction: column;  
+}
+#skillsTitle{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    order: 0;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vw;
+    padding-top: 2vh;
+}
+#homeSkillsDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#frontEnd{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-items: center;
+    margin-left: 10vw;
+}
+#backEnd{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-items: center;
+    align-self: auto;
+    margin-left: 5vw;
+}
+/* center div */
+#homeCenterDiv{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: row;
+}
+#starImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding-top: 5vh;
+    margin-left: 5vw;
+}
+#starTitle{
+    padding-top: 1vh; 
+    margin-left: 5vw;
+   }
+   #starList{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    margin-left: 5vw;
+    padding-top: 1vh; 
+     position: relative;
+    right:1vw;
+}
+#heartImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding-top: 5vh;
+}
+#heartTitle{
+    padding-top: 1vh; 
+}
+#heartList{
+    padding-top: 1vh; 
+    position: relative;
+   right:1vw;
+}
+#eyeImage{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding-top: 6vh;
+}
+#eyeTitle{
+    padding-top: 1vh; 
+}
+#eyeList{
+    padding-top: 1vh; 
+    position: relative;
+   right:1vw;
+}
+/* page links */
+#homePortfolioImage{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    width: 900px;
+    height: 482px;
+}
+#homePortfolioLink{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 6; 
+    padding-left: 5vw;
+    padding-top: 15vh;
+    font-size: large;
+    width: 700px;
+    
+}
+#homeContactLink{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    font-size: large;
+    padding-top: 15vh;
+    width: 700px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+#homeContactImage{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 7; 
+    position: relative; 
+    left: 200px;
+    width: 900px;  
+}
+
+
+ /* responsiveness */
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    /* #portfolio img {
+        width: 45%
+    } */
+    /* #contactimage {
+        width: 45%
+    } */
+}
+
+@keyframes winanim {
+    0% {
+        transform: perspective(400px) rotateX(90deg);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+    40% {
+        transform: perspective(400px) rotateX(-20deg);
+        animation-timing-function: ease-in
+    }
+    60% {
+        transform: perspective(400px) rotateX(10deg);
+        opacity: 1
+    }
+    80% {
+        transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+        transform: perspective(400px)
+    }
+}

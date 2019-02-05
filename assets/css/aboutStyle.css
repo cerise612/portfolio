@@ -1,0 +1,19 @@
+body{
+    font-family: 'Quicknd', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* hyperlink colors */
+/* unvisited link */
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+a:visited {
+    color: #FD0157;
+}
+.nav-link{
+    padding-top: 5vh;
+}

@@ -1,0 +1,111 @@
+body{
+    font-family: 'Quicknd', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* hyperlink colors */
+
+/* unvisited link */
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+a:visited {
+    color: #FD0157;
+}
+.nav-link{
+    padding-top: 5vh;
+}
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+
+}
+/* Page 3 portfolio */
+
+.portfolio {
+    position: relative;
+    margin: 5px;
+    border: 2px solid white;
+    float: left;
+    width: 180px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    animation: winanim 1s;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12)
+}
+
+.portfolio:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.card {
+    padding: 5px;
+    text-align: center;
+    font-size: 90%;
+    color: black;
+    background-color: white;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    margin-right: 3vw;
+}
+#applications{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 3vw;
+}
+#design{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 3vw;
+}
+.PortfolioMessage{
+    text-align: center;
+}
+.PortfolioInstructions{
+    text-align: center;
+}
+/* .cardHolder{
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+} */
+
+/* .wggCardTitle{
+    text-align: center;
+}
+.wggCardDescription{
+    text-align: center;
+} */
+/* .cardImage {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+} */
+.content {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 15vh;
+    width: 14vw;
+    text-align: center;
+    align-self: center;
+  }
+#cdjDesigns{
+    height: 14vh;
+   border-radius: 0%;
+}
+  .portfolioFooter {
+    height: 10px;
+  }
