@@ -1,0 +1,125 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* hyperlink colors */
+/* unvisited link */
+a:link {
+    color: #633894;
+}
+
+/* visited link */
+a:visited {
+    color: #FD0157;
+}
+.nav-link{
+    padding-top: 5vh;
+}
+/* Footer */
+#footer {
+    border-top: silver;
+    border-top-style: groove;
+    font-size: smaller;
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    padding-left: 700px;
+}
+/* fetch  api*/
+#contentDiv {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 20vh 80vh 80vh 80vh 80vh 80vh;
+}
+.apiImage{
+    height: 60vh;
+    box-shadow: 3px 3px 5px grey;
+}
+#introText{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 5vh;
+}
+#welcomePage{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+}
+#documentationPage{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin-top: 5vh;
+}
+#documentaionText{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin-bottom: 10vh;
+}
+#requestPage{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin-top: 10vh;
+}
+#requestText{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin-bottom: 10vh;
+}
+#userDashboard{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    justify-self: center;
+    margin-top: 5vh;
+}
+#dashboardText{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    justify-self: center;
+    margin-bottom: 10vh;
+}
+#contactPage{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    justify-self: center;
+    margin-top: 10vh;
+}
+#contactText{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    justify-self: center;
+    margin-bottom: 10vh;
+}
+#backButton{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    padding-top: 75vh;
+}
