@@ -250,3 +250,40 @@ h1{
         transform: perspective(400px)
     }
 }
+
+/* responsiveness */
+/* iphone */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      body{
+          width: 375px;
+          height: 812px;
+      }
+#homeNavBarDiv{
+    width:375px;
+    height: 50px;
+}
+#logo{
+height: 50px;
+}
+.nav-link{
+    font-size: smaller;
+    padding-top: 0vh;
+}
+#homeBannerDiv{
+    background-size: 375px 100px;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
