@@ -3,11 +3,8 @@ body{
     padding-left: 0;
     margin-left: 0;
 }
-#collNav {
-    display: none;
-  }
-/* hyperlink colors */
 
+/* hyperlink colors */
 /* unvisited link */
 a:link {
     color: #633894;
@@ -17,7 +14,14 @@ a:link {
 a:visited {
     color: #FD0157;
 }
-
+#linkedInLink{
+    height: 7vh;
+    padding-top: 2vh;
+}
+#githubLink{
+    height: 7vh;
+    padding-top: 2vh;
+}
 /* Footer */
 #footer {
     border-top: silver;
@@ -29,32 +33,24 @@ a:visited {
     padding-left: 700px;
 }
 /* home page*/
-
-
-#HomePage{
+.HomePage{
     display: grid;
     grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
     grid-template-rows: 15vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
 }
 /* navbar */
 #homeNavBarDiv{
-    /* display: flex;
-    flex-direction: row; */
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%; 
 }
-#logo{
-    padding-right: 0;
-}
-#pageLinks{
-   padding-top: 6vh;
-   padding-left: 0;
-   margin-left: 0;
-}
-#profileLinks{
-    padding-top: 6vh;
+.nav-link{
+    padding-top: 5vh;
 }
 /* banner */
 #homeBannerDiv{
-    clear: both;
     background-image: url("../images/home/banner.jpg");
     background-repeat: no-repeat;
     background-size: 1450px 500px;
@@ -69,6 +65,7 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     height: 35vh;
+    margin-top: 5vh;
 }
 #homeTitleDiv{
     grid-column-start: 1;
@@ -224,11 +221,6 @@ h1{
     width: 900px;  
 }
 
-/* collaspible nav */
-
-#navButton{
-    background-image: url('../images/navBar/iconmonstr-menu-thin-240.png'); 
-}
 
  /* responsiveness */
 @media only screen and (min-width: 600px) {
@@ -262,165 +254,23 @@ h1{
         transform: perspective(400px)
     }
 }
- /* iphone */
-  /* Portrait */
-@media (max-width: 375px) {
-    body{
-        width: 375px;
-        height: 750px;
-    }
-    #pageLinks     { display: none; }
-    #collNav { display: inline-block; }
-    #navButton{
-        position: relative;
-        left:80vw;
-        bottom: 9vh;
-    }
-    #linkedinLink{
-        height: 20px; 
-        position: relative;
-        right: 40vw;
-        top: .5vh;
-    }
-    #githubLink{
-        height: 20px;
-        position: relative;
-        right: 33vw;
-        bottom: 2.85vh;
-    }
-    #homeBannerDiv{
-        background-image: url("../images/home/mobileBanner.jpg");
-        opacity: .7;
-        margin-left: 1vw;
-        background-size: 1200px 375px;
-        background-size: contain;
-        padding-top: 0vh;
-        position: relative;
-        bottom: 8vh;
-        
-    }
-    #homeTitleDiv{
-        font-size: xx-small;
-        opacity: 1;
-    }
-    #bannerSummary{
-         width: 330px;
-        font-size: small; 
-        position: relative;
-        top: 0vh;
-        font-weight: bold;
-        opacity: 1;
-    }
-    #skillsTitle{
-        font-size: small;
-        opacity: 1;
-    }
-    #homeSkillsDiv{
-        font-size: smaller;
-        opacity: 1;
-    }
-    #homeCenterDiv{
-        width: 375px;
-        height: 500px;
-    }
-    #starImage{
-        height:75px;
-        position: relative;
-        top: 10vh;
-    }
-    #starTitle{
-        font-size: smaller;
-        position: relative;
-        top: 10vh;
-        right: 1vw;
-    }
-    #starList{
-        font-size: small; 
-        position: relative;
-       top: 4vh;
-       right: 7vw;
-    }
-    #heartImage{
-        height:75px;
-        position: relative;
-        bottom: 16vh;
-        left: 35vw;
-    }
-    #heartTitle{
-        font-size: smaller;
-        position: relative;
-        bottom: 16vh;
-        left: 35vw;
-    }
-    #heartList{
-        font-size: smaller; 
-        position: relative;
-        bottom: 18vh;
-        left: 27vw;
-    }
-    #eyeImage{
-        height:75px;
-        position: relative;
-        bottom: 47.5vh;
-        left: 66vw;
-    }
-    #eyeTitle{
-        font-size: smaller;
-        position: relative;
-        bottom: 47vh;
-        left: 68vw;
-    }
-    #eyeList{
-        font-size: smaller; 
-        position: relative;
-        bottom: 49vh;
-        left: 60vw;
-    }
-    #homePortfolioImage{
-        width: 187.5px;
-        height: 187.5px;
-        position: relative;
-        bottom: 29vh;
-    }
-    #homePortfolioLink{
-        font-size: x-small; 
-        width: 187.5px;
-        padding-right: 2vw;
-        position: relative;
-        bottom: 41vh;
-    }
-    #homeContactImage{
-        width: 187.5px;
-        height: 187.5px;
-        position: relative;
-        bottom: 33.5vh;
-        right: 1460vw;
-        left: 0px;
-    }
-    #homeContactLink{
-        font-size: x-small; 
-        width: 187.5px;
-        padding-right: 2vw;
-        position: relative;
-        bottom: 45vh;
-    }
-    .btn{
-        width: 145px;
-        font-size: smaller;
-    }
-    #footer {
-        padding-left: 130px;
-        width: 375px;
-        font-size: xx-small;
-        height: 30px;
-        position: relative;
-        bottom: 40vh;
-    }
-  }
 
- 
+/* responsiveness */
 /* iphone */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+     
+}
+
 /* Landscape */
-@media (max-width: 812px) {
-  
-  }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}

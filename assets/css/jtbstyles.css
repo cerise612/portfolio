@@ -17,6 +17,14 @@ a:visited {
 .nav-link{
     padding-top: 5vh;
 }
+#linkedInLink{
+    height: 7vh;
+    padding-top: 2vh;
+}
+#githubLink{
+    height: 7vh;
+    padding-top: 2vh;
+}
 /* Footer */
 #footer {
     border-top: silver;
