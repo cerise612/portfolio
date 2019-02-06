@@ -290,60 +290,102 @@ h1{
         font-size: smaller;
         /* width: 185px; */
     }
+    #homeCenterDiv{
+        width: 375px;
+        height: 500px;
+    }
     #starImage{
         height:75px;
+        position: relative;
+        top: 12vh;
     }
     #starTitle{
         font-size: smaller;
+        position: relative;
+        top: 12vh;
+        right: 1vw;
     }
     #starList{
-        font-size: smaller; 
+        font-size: small; 
+        position: relative;
+       top: 5vh;
+       right: 7vw;
     }
     #heartImage{
         height:75px;
+        position: relative;
+        bottom: 12vh;
+        left: 35vw;
     }
     #heartTitle{
         font-size: smaller;
+        position: relative;
+        bottom: 12vh;
+        left: 34vw;
     }
     #heartList{
         font-size: smaller; 
+        position: relative;
+        bottom: 14vh;
+        left: 27vw;
     }
     #eyeImage{
         height:75px;
+        position: relative;
+        bottom: 41vh;
+        left: 66vw;
     }
     #eyeTitle{
         font-size: smaller;
+        position: relative;
+        bottom: 41vh;
+        left: 68vw;
     }
     #eyeList{
         font-size: smaller; 
+        position: relative;
+        bottom: 43vh;
+        left: 60vw;
     }
     #homePortfolioImage{
         width: 187.5px;
         height: 187.5px;
+        position: relative;
+        bottom: 22vh;
     }
     #homePortfolioLink{
         font-size: x-small; 
+        width: 187.5px;
+        padding-right: 2vw;
+        position: relative;
+        bottom: 32vh;
     }
     #homeContactImage{
         width: 187.5px;
-    }#homeContactLink{
+        height: 187.5px;
+        position: relative;
+        bottom: 27.5vh;
+        right: 1460vw;
+        left: 0px;
+    }
+    #homeContactLink{
         font-size: x-small; 
+        width: 187.5px;
+        padding-right: 2vw;
+        position: relative;
+        bottom: 39vh;
     }
     .btn{
         width: 145px;
         font-size: smaller;
-    }
-    #homePortfolioLink{
-        width: 187.5px;
-    }
-    #homeContactLink{
-        width: 187.5px;
     }
     #footer {
         padding-left: 130px;
         width: 375px;
         font-size: xx-small;
         height: 30px;
+        position: relative;
+        bottom: 34vh;
     }
   }
 
