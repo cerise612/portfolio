@@ -31,7 +31,7 @@ a:visited {
 /* home page*/
 
 
-.HomePage{
+#HomePage{
     display: grid;
     grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
     grid-template-rows: 15vh 15vh 10vh 15vh 15vh 25vh 25vh 5vh
@@ -267,6 +267,7 @@ h1{
 @media (max-width: 375px) {
     body{
         width: 375px;
+        height: 750px;
     }
     #pageLinks     { display: none; }
     #collNav { display: inline-block; }
@@ -279,6 +280,7 @@ h1{
         height: 20px; 
         position: relative;
         right: 40vw;
+        top: .5vh;
     }
     #githubLink{
         height: 20px;
@@ -288,28 +290,34 @@ h1{
     }
     #homeBannerDiv{
         background-image: url("../images/home/mobileBanner.jpg");
+        opacity: .7;
         margin-left: 1vw;
         background-size: 1200px 375px;
         background-size: contain;
         padding-top: 0vh;
+        position: relative;
+        bottom: 8vh;
         
     }
     #homeTitleDiv{
         font-size: xx-small;
+        opacity: 1;
     }
     #bannerSummary{
          width: 330px;
         font-size: small; 
         position: relative;
         top: 0vh;
+        font-weight: bold;
+        opacity: 1;
     }
     #skillsTitle{
         font-size: small;
-        /* width: 185px; */
+        opacity: 1;
     }
     #homeSkillsDiv{
         font-size: smaller;
-        /* width: 185px; */
+        opacity: 1;
     }
     #homeCenterDiv{
         width: 375px;
@@ -318,74 +326,74 @@ h1{
     #starImage{
         height:75px;
         position: relative;
-        top: 12vh;
+        top: 10vh;
     }
     #starTitle{
         font-size: smaller;
         position: relative;
-        top: 12vh;
+        top: 10vh;
         right: 1vw;
     }
     #starList{
         font-size: small; 
         position: relative;
-       top: 5vh;
+       top: 4vh;
        right: 7vw;
     }
     #heartImage{
         height:75px;
         position: relative;
-        bottom: 12vh;
+        bottom: 16vh;
         left: 35vw;
     }
     #heartTitle{
         font-size: smaller;
         position: relative;
-        bottom: 12vh;
-        left: 34vw;
+        bottom: 16vh;
+        left: 35vw;
     }
     #heartList{
         font-size: smaller; 
         position: relative;
-        bottom: 14vh;
+        bottom: 18vh;
         left: 27vw;
     }
     #eyeImage{
         height:75px;
         position: relative;
-        bottom: 41vh;
+        bottom: 47.5vh;
         left: 66vw;
     }
     #eyeTitle{
         font-size: smaller;
         position: relative;
-        bottom: 41vh;
+        bottom: 47vh;
         left: 68vw;
     }
     #eyeList{
         font-size: smaller; 
         position: relative;
-        bottom: 43vh;
+        bottom: 49vh;
         left: 60vw;
     }
     #homePortfolioImage{
         width: 187.5px;
         height: 187.5px;
         position: relative;
-        bottom: 22vh;
+        bottom: 29vh;
     }
     #homePortfolioLink{
         font-size: x-small; 
         width: 187.5px;
         padding-right: 2vw;
         position: relative;
-        bottom: 32vh;
+        bottom: 41vh;
     }
     #homeContactImage{
         width: 187.5px;
         height: 187.5px;
         position: relative;
-        bottom: 27.5vh;
+        bottom: 33.5vh;
         right: 1460vw;
         left: 0px;
     }
@@ -394,7 +402,7 @@ h1{
         width: 187.5px;
         padding-right: 2vw;
         position: relative;
-        bottom: 39vh;
+        bottom: 45vh;
     }
     .btn{
         width: 145px;
@@ -406,7 +414,7 @@ h1{
         font-size: xx-small;
         height: 30px;
         position: relative;
-        bottom: 34vh;
+        bottom: 40vh;
     }
   }
 
