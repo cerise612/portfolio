@@ -4,7 +4,9 @@ body{
     margin-left: 0;
     text-align: center;
 }
-
+nav select {
+    display: none;
+  }
 /* hyperlink colors */
 /* unvisited link */
 a:link {
@@ -40,4 +42,11 @@ a:visited {
     margin-right: auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
+}
+@media (max-width: 375px) {
+    body{
+        width: 375px;
+    }
+    nav ul     { display: none; }
+    nav select { display: inline-block; }
 }

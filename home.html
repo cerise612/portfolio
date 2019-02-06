@@ -10,177 +10,198 @@
   <meta name="keywords" content="danielle doty, danielle, web, website, websites, web design, design, freelance, responsive, mobile, mobile design, development, responsive development, web development, unique, fun, developer, affordable, small business, personal, blog, portfolio">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/ddfavicon copy.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/ddfavicon copy.ico">
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Quicksand" rel="stylesheet">
   <link href="assets/css/homeStyles.css" type="text/css" rel="stylesheet">
 
-
+  <script src="assets/javascript/script.js"></script>
 </head>
 
 <body>
-  <!-- Nav Bar -->
-      <nav id="homeNavBarDiv"> 
-          <div class="row">
-              <div class="col-1">
-                  <img src="assets/images/navBar/logo.jpg" alt="logo" id="logo">
-              </div>
-              <div class="col-2">
-                  <ul id="pageLinks"> 
-                      <a href="/" class="active">Home</a>
-                      <a href="/about.html">About</a>
-                      <a href="/portfolio.html">Work</a>
-                      <a href="/contact.html">Contact</a>
-                    </ul>
-              </div>
-              <div class="col-8">
-                </div>
-              <div class="col-1">
-                  <ul id="profileLinks">
-                      <a href="https://www.linkedin.com/in/danielle-doty/">
-                        <img src="assets/images/navBar/linkedin.png" alt="LinkedIn Link" id="linkedinLink">
-                      </a>
-                      <a href="https://github.com/cerise612">
-                        <img src="assets/images/navBar/github.png" alt="Github Link" id="githubLink">
-                      </a> 
-                  </ul>
-            </div>
-          </div>
-          </div>
-    <select> 
-      <option value="" selected="selected">Select</option> 
-      <option value="/">Home</option> 
-      <option value="/about">About</option> 
-      <option value="/portfolio">Work</option> 
-      <option value="/contact">Contact</option> 
-    </select> 
+ <!-- Nav Bar -->
+ <nav id="homeNavBarDiv">
+    <div class="row">
+      <div class="col-1">
+        <img src="assets/images/navBar/logo.jpg" alt="logo" id="logo">
+      </div>
+      <div class="col-2">
+        <ul id="pageLinks">
+          <a href="/" class="active">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/portfolio.html">Work</a>
+          <a href="/contact.html">Connect</a>
+        </ul>
+      </div>
+      <div class="col-8">
+      </div>
+      <div class="col-1">
+        <ul id="profileLinks">
+          <a href="https://www.linkedin.com/in/danielle-doty/">
+            <img src="assets/images/navBar/iconmonstr-linkedin-5-240.png" alt="LinkedIn Link" id="linkedinLink">
+          </a>
+          <a href="https://github.com/cerise612">
+            <img src="assets/images/navBar/iconmonstr-github-5-240.png" alt="Github Link" id="githubLink">
+          </a>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+    <!-- Collapse button -->
+    <div id="collNav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+      aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" id="navButton"></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio.html">Work</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Connect</a>
+          </li>
+      </ul>
+      <!-- Links -->
+    </div>
+    </div>
   </nav>
 
   <!-- Banner Row -->
-    <div class="row" id="homeBannerDiv">
-      <div id="homeTitleDiv">
-        <h1><b>I'm Danielle Doty, a Full Stack Developer.</b></h1>
-        <div id="bannerSummary">
-        <p> I've always been drawn to the overlap between design and development. My skills are broad: from ux to design,
-         front end to back end development.</p><p> I enjoy each aspect, and love building sites & mobile apps from start to finish,
-        for clients all over the world.</p>
-      </div>
-      </div>
-      <div id="skillsSide">
-        <h3 id="skillsTitle"><b>What I Do</b></h3>
-        <div id="homeSkillsDiv">
-          <div id="frontEnd">
-        <b>Front End</b>
-        <ul>
-          <li>React</li>
-          <li>HTMLS5</li>
-          <li>CSS3</li>
-          <li>Javascript</li>
-          <li>JQuery</li>
-          <li>bootstrap</li>
-          <li>Handlebars</li>
-          <li>Java</li>
-        </ul>
-      </div>
-        <div id="backEnd">
-        <b>Back End</b>
-        <ul>
-         <li>MySql</li>
-          <li>MongoDB</li>
-          <li>Firebase</li>
-          <li>Express.JS</li>
-          <li>Node</li>
-        </ul>
-      </div>
-      </div>
+  <div class="row" id="homeBannerDiv">
+    <div id="homeTitleDiv">
+      <h1><b>I'm Danielle Doty, a Full Stack Developer.</b></h1>
+      <div id="bannerSummary">
+        <p> I've always been drawn to the overlap between design and development. My skills are broad: from ux to
+          design,
+          front end to back end development.</p>
+        <p> I enjoy each aspect, and love building sites & mobile apps from start to finish,
+          for clients all over the world.</p>
       </div>
     </div>
- 
-  <!-- Row 3 -->
-    <div class="row" id="homeCenterDiv">
-      <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
-        <img src="assets/images/home/star.jpg" alt="star" id="starImage">
-        <h4 id="starTitle">Discover</h4>
-        <div id="starList">
-        <ul id="starList">
-          <li>
-                  Research
-            </li>
-            <li>
-                  Strategy
-            </li>
-            <li>
-                  Ideation
-            </li>
+    <div id="skillsSide">
+      <h3 id="skillsTitle"><b>What I Do</b></h3>
+      <div id="homeSkillsDiv">
+        <div id="frontEnd">
+          <b>Front End</b>
+          <ul>
+            <li>React</li>
+            <li>HTMLS5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+            <li>bootstrap</li>
+            <li>Handlebars</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div id="backEnd">
+          <b>Back End</b>
+          <ul>
+            <li>MySql</li>
+            <li>MongoDB</li>
+            <li>Firebase</li>
+            <li>Express.JS</li>
+            <li>Node</li>
           </ul>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
-        <img src="assets/images/home/heart.jpg" alt="heart" id="heartImage">
-        <h4 id="heartTitle">Design</h4>
-        <div id="heartList"></div>
-        <ul id="heartList">
+    </div>
+  </div>
+
+  <!-- Row 3 -->
+  <div class="row" id="homeCenterDiv">
+    <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
+      <img src="assets/images/home/star.jpg" alt="star" id="starImage">
+      <h4 id="starTitle">Discover</h4>
+      <div id="starList">
+        <ul id="starList">
           <li>
-                Branding
+            Research
           </li>
           <li>
-                UX
+            Strategy
           </li>
           <li>
-                Visual Design
-          </li>
-          <li>
-                Motion
-          </li>
-          <li>
-                Illustration
+            Ideation
           </li>
         </ul>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
-        <img src="assets/images/home/eye.jpg" alt="eye" id="eyeImage">
-        <h4 id="eyeTitle">Deploy</h4>
-        <div id="eyeList"></div>
-        <ul id="eyeList">
-          <li>
-              Prototyping
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
+      <img src="assets/images/home/heart.jpg" alt="heart" id="heartImage">
+      <h4 id="heartTitle">Design</h4>
+      <div id="heartList"></div>
+      <ul id="heartList">
+        <li>
+          Branding
         </li>
         <li>
-              Animatics
+          UX
         </li>
         <li>
-              Development
+          Visual Design
+        </li>
+        <li>
+          Motion
+        </li>
+        <li>
+          Illustration
         </li>
       </ul>
-      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 xs-4">
+      <img src="assets/images/home/eye.jpg" alt="eye" id="eyeImage">
+      <h4 id="eyeTitle">Deploy</h4>
+      <div id="eyeList"></div>
+      <ul id="eyeList">
+        <li>
+          Prototyping
+        </li>
+        <li>
+          Animatics
+        </li>
+        <li>
+          Development
+        </li>
+      </ul>
     </div>
   </div>
+  </div>
   <!-- link to portfolio -->
-    <div class="row">
-      <div >
-        <img src="assets/images/home/portfolio.jpg"  alt="placeholder"
-          id="homePortfolioImage">
-      </div>
-      <div  id="homePortfolioLink">
-        <h1>Portfolio</h1>
-        <p>Click below to see some projects I've been working on lately. </p>
-        <button type="button" class="btn btn-outline-dark">Check out my latest projects
-          <a href="portfolio.html"></a>
-        </button>
-      </div>
+  <div class="row">
+    <div>
+      <img src="assets/images/home/portfolio.jpg" alt="placeholder" id="homePortfolioImage">
     </div>
-    <!-- link to contact -->
-    <div class="row" id=contactrow>
-      <div  id="homeContactLink">
-        <h1>Get in touch</h1>
-        <p>I'm available for remote work - if you would like to build something together.</p>
-        <button type="button" class="btn btn-outline-dark">Get in touch
-          <a href="contact.html"></a>
-        </button>
-      </div>
-      <div>
-        <img src="assets/images/home/contact.jpg" alt="placeholder" id="homeContactImage">
-      </div>
+    <div id="homePortfolioLink">
+      <h1>Portfolio</h1>
+      <p>Click below to see some projects I've been working on lately. </p>
+      <button type="button" class="btn btn-outline-dark">Check out my latest projects
+        <a href="portfolio.html"></a>
+      </button>
     </div>
+  </div>
+  <!-- link to contact -->
+  <div class="row" id=contactrow>
+    <div id="homeContactLink">
+      <h1>Get in touch</h1>
+      <p>I'm available for remote work - if you would like to build something together.</p>
+      <button type="button" class="btn btn-outline-dark">Get in touch
+        <a href="contact.html"></a>
+      </button>
+    </div>
+    <div>
+      <img src="assets/images/home/contact.jpg" alt="placeholder" id="homeContactImage">
+    </div>
+  </div>
   </div>
 
   <!-- footer -->

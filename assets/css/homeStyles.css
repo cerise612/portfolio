@@ -3,7 +3,7 @@ body{
     padding-left: 0;
     margin-left: 0;
 }
-nav select {
+#collNav {
     display: none;
   }
 /* hyperlink colors */
@@ -224,6 +224,11 @@ h1{
     width: 900px;  
 }
 
+/* collaspible nav */
+
+#navButton{
+    background-image: url('../images/navBar/iconmonstr-menu-thin-240.png'); 
+}
 
  /* responsiveness */
 @media only screen and (min-width: 600px) {
@@ -263,8 +268,24 @@ h1{
     body{
         width: 375px;
     }
-    nav ul     { display: none; }
-    nav select { display: inline-block; }
+    #pageLinks     { display: none; }
+    #collNav { display: inline-block; }
+    #navButton{
+        position: relative;
+        left:80vw;
+        bottom: 9vh;
+    }
+    #linkedinLink{
+        height: 20px; 
+        position: relative;
+        right: 40vw;
+    }
+    #githubLink{
+        height: 20px;
+        position: relative;
+        right: 33vw;
+        bottom: 2.85vh;
+    }
     #homeBannerDiv{
         background-image: url("../images/home/mobileBanner.jpg");
         margin-left: 1vw;
