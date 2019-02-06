@@ -3,7 +3,9 @@ body{
     padding-left: 0;
     margin-left: 0;
 }
-
+nav select {
+    display: none;
+  }
 /* hyperlink colors */
 
 /* unvisited link */
@@ -36,17 +38,23 @@ a:visited {
 }
 /* navbar */
 #homeNavBarDiv{
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    width: 100%; 
+    /* display: flex;
+    flex-direction: row; */
 }
-.nav-link{
-    padding-top: 5vh;
+#logo{
+    padding-right: 0;
+}
+#pageLinks{
+   padding-top: 6vh;
+   padding-left: 0;
+   margin-left: 0;
+}
+#profileLinks{
+    padding-top: 6vh;
 }
 /* banner */
 #homeBannerDiv{
+    clear: both;
     background-image: url("../images/home/banner.jpg");
     background-repeat: no-repeat;
     background-size: 1450px 500px;
@@ -61,7 +69,6 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     height: 35vh;
-    margin-top: 5vh;
 }
 #homeTitleDiv{
     grid-column-start: 1;
@@ -250,40 +257,99 @@ h1{
         transform: perspective(400px)
     }
 }
+ /* iphone */
+  /* Portrait */
+@media (max-width: 375px) {
+    body{
+        width: 375px;
+    }
+    nav ul     { display: none; }
+    nav select { display: inline-block; }
+    #homeBannerDiv{
+        background-image: url("../images/home/mobileBanner.jpg");
+        margin-left: 1vw;
+        background-size: 1200px 375px;
+        background-size: contain;
+        padding-top: 0vh;
+        
+    }
+    #homeTitleDiv{
+        font-size: xx-small;
+    }
+    #bannerSummary{
+         width: 330px;
+        font-size: small; 
+        position: relative;
+        top: 0vh;
+    }
+    #skillsTitle{
+        font-size: small;
+        /* width: 185px; */
+    }
+    #homeSkillsDiv{
+        font-size: smaller;
+        /* width: 185px; */
+    }
+    #starImage{
+        height:75px;
+    }
+    #starTitle{
+        font-size: smaller;
+    }
+    #starList{
+        font-size: smaller; 
+    }
+    #heartImage{
+        height:75px;
+    }
+    #heartTitle{
+        font-size: smaller;
+    }
+    #heartList{
+        font-size: smaller; 
+    }
+    #eyeImage{
+        height:75px;
+    }
+    #eyeTitle{
+        font-size: smaller;
+    }
+    #eyeList{
+        font-size: smaller; 
+    }
+    #homePortfolioImage{
+        width: 187.5px;
+        height: 187.5px;
+    }
+    #homePortfolioLink{
+        font-size: x-small; 
+    }
+    #homeContactImage{
+        width: 187.5px;
+    }#homeContactLink{
+        font-size: x-small; 
+    }
+    .btn{
+        width: 145px;
+        font-size: smaller;
+    }
+    #homePortfolioLink{
+        width: 187.5px;
+    }
+    #homeContactLink{
+        width: 187.5px;
+    }
+    #footer {
+        padding-left: 130px;
+        width: 375px;
+        font-size: xx-small;
+        height: 30px;
+    }
+  }
 
-/* responsiveness */
+ 
 /* iphone */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-      body{
-          width: 375px;
-          height: 812px;
-      }
-#homeNavBarDiv{
-    width:375px;
-    height: 50px;
-}
-#logo{
-height: 50px;
-}
-.nav-link{
-    font-size: smaller;
-    padding-top: 0vh;
-}
-#homeBannerDiv{
-    background-size: 375px 100px;
-}
-}
-
 /* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
+@media (max-width: 812px) {
+  
+  }
