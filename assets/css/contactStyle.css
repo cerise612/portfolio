@@ -2,6 +2,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     padding-left: 0;
     margin-left: 0;
+    height: 100%;
 }
 
 /* hyperlink colors */
@@ -34,6 +35,9 @@ a:visited {
     font-size: smaller;
     text-align: center;
     padding-left: 700px;
+    position: relative;
+    bottom: 60vh;
+    height: 1vh;
 }
 /* page 4 contact */
 
@@ -42,6 +46,8 @@ a:visited {
     align-items: center;
     border-radius: 50%;
     width: 20vw;
+    position: relative;
+    bottom:25vh;
 }
 
 #HomePage{
@@ -63,9 +69,9 @@ a:visited {
     grid-row-end: 2;
     padding-left: 1vw;
     position: relative;
-    top:15vh;
+    top:10vh;
     left:15vw;
-    font-size: large
+    font-size: large;
 }
 #contactForm{
     margin-bottom: 2vh;
@@ -88,10 +94,10 @@ a:visited {
     left:3vw; */
     height: 3vh;
 }
-#contactMessageField{
+#contactMessage{
     margin-bottom: 2vh;
-    /* position: relative;
-    left:3vw; */
+    position: relative;
+    bottom:12vw;
     height: 3vh;
 }
 #contactSide2{
@@ -105,25 +111,14 @@ a:visited {
     position: relative;
     bottom:22vh;
     left: 20vw;
-    margin-top: 5vh
+    margin-top: 5vh;
+    height: 85vh;
 }
-/* #content {
-    min-height: calc(80vh -50px);
-  } */
 
-#contactFooterDiv{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    width: 100%;
-    position: relative;
-    bottom:4vh;
-    /* height: 5px; */
-}
+
 #ContactPageImage{
     height: 33vh;
-    /* margin-top: 5vh; */
+  
 }
 
 hr{
@@ -136,4 +131,7 @@ hr{
     position: relative;
     /* bottom:8vh; */
     right:40vw;
+}
+#paper{
+    height: 3vh;
 }
